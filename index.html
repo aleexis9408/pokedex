@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" media="all" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./assets/img/pokeball.svg" alt="Pokedex" class="header-container__logo">
+            <h1 class="header-container__title">POKEDEX</h1>
+        </div>
+    </header>
+    <main>
+        <section class="card">
+            <div class="card-header">
+                <div class="card-header__title">
+                    <h2 id="title-pokemon"></h2>
+                </div>
+                <div class="card-header__img">
+                    <img id="img-pokemon" src="" alt="charizard">
+                </div>
+            </div>
+
+            <div class="card-detail">
+                <ul class="card-detail__stats">
+                    <li>
+                        <p>NO</p>
+                        <p id="id-pokemon"></p>
+                    </li>
+                    <li>
+                        <p>LEVEL</p>
+                        <p id="base-experience-pokemon"></p>
+                    </li>
+                    <li>
+                        <p>TYPES</p>
+                        <p id="types-pokemon"></p>
+                    </li>
+                    <li>
+                        <p>HABILITYS</p>
+                        <p id="habilities-pokemon"></p>
+                    </li>
+                    <li>
+                        <p>HEIGHT</p>
+                        <p id="height-pokemon"></p>
+                    </li>
+                    <li>
+                        <p>WEIGHT</p>
+                        <p id="weight-pokemon"></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h2 class="footer-container__title">OTHERS</h2>
+            <div id='other-pokemons' class="footer-container__buttons">
+            </div>
+        </div>
+    </footer>
+    <script src="src/app.js"></script>
+</body>
+
+</html>
